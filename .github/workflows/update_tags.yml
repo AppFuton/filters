@@ -37,7 +37,7 @@ jobs:
       - name: Create Pull Request on Changes
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AUTOMATION_PAT }}
           commit-message: "chrono: automatically update parsed tags registry"
           branch: automation/update-extracted-tags
           delete-branch: true
