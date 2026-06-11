@@ -24,11 +24,6 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
-      - name: Set up Kotlin Compiler
-        uses: fizzed/github-action-setup-kotlin@v1
-        with:
-          version: '2.0.0'
-
       - name: Run Extraction Script
         run: |
           cd scripts

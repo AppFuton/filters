@@ -1,7 +1,5 @@
 # Storage of filters for Futon app
 
-Contains scripts that 
-
 ## Usage
 
 **With Kotlin CLI**
